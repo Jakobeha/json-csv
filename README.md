@@ -17,6 +17,8 @@ You can also splice a CSV into an existing JSON, so that the CSV replaces one of
 
 ## Building
 
+There is a release for x86_64 macs.
+
 `json-csv` is built using the [Swift Package Manager](https://swift.org/package-manager/). Run `swift build` to build, and `swift run ftd-data-convert <arguments ...>` to run.
 
 You can run `test.sh` to perform some basic integration tests. The tests require [`jq`](https://stedolan.github.io/jq/) to work.
