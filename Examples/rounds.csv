@@ -1,0 +1,26 @@
+Rounds; 0.count; 0.delayBetween; 0.type; 1.count; 1.delayBetween; 1.type; 10.count; 10.delayBetween; 10.type; 11.count; 11.delayBetween; 11.type; 12.count; 12.delayBetween; 12.type; 13.count; 13.delayBetween; 13.type; 14.count; 14.delayBetween; 14.type; 2.count; 2.delayBetween; 2.type; 3.count; 3.delayBetween; 3.type; 4.count; 4.delayBetween; 4.type; 5.count; 5.delayBetween; 5.type; 6.count; 6.delayBetween; 6.type; 7.count; 7.delayBetween; 7.type; 8.count; 8.delayBetween; 8.type; 9.count; 9.delayBetween; 9.type
+14; 5; 0.25; Prism5; 5; 0.25; Diamond4; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 5; 0.5; Prism5; 5; 0.25; Diamond4; 5; 0.5; Prism5; 5; 0.25; Diamond4; 5; 0.5; Prism5; 5; 0.25; Diamond4; 5; 0.5; Prism5; 50; 0.25; Diamond4
+20; 10; 3; StellatedDodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+12; 30; 0.25; Diamond4; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+19; 8; 4; SuperPyramid3; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+22; 10; 3; StellatedDodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+3; 10; 2; Cube; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+13; 30; 0.05; Diamond4; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+21; 10; 0.125; StellatedDodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+7; 50; 0.0625; Pyramid4; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+6; 25; 1; Pyramid4; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+5; 20; 0.125; Cube; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+10; 25; 2; Prism5; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+23; 10; 0.125; StellatedDodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+18; 100; 0.125; Prism5; 10; 0.25; Diamond4; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+1; 15; 0.125; Pyramid3; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+9; 1; 0; SuperCube; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+15; 15; 3; Dodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+2; 25; 0.5; Pyramid3; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+11; 20; 0.125; Prism5; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+16; 10; 0.5; Diamond4; 1; 0.5; Dodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 10; 0.5; Diamond4; 1; 0.5; Dodecahedron; 10; 0.5; Diamond4; 1; 0.5; Dodecahedron; 10; 0.5; Diamond4; 1; 0.5; Dodecahedron; 10; 0.5; Diamond4; 1; 0.5; Dodecahedron
+24; 20; 2; Icosahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+0; 10; 2; Pyramid3; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+17; 10; 0.125; Dodecahedron; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+8; 3; 0.25; Pyramid3; 3; 0.25; Pyramid4; 3; 0.25; Pyramid3; 3; 0.25; Cube; 3; 0.25; Pyramid3; 3; 0.25; Pyramid4; 3; 0.25; Cube; 3; 0.25; Cube; 3; 0.25; Pyramid3; 3; 0.25; Pyramid4; 3; 0.25; Cube; 3; 0.25; Pyramid3; 3; 0.25; Pyramid4; 3; 0.25; Cube; 3; 0.25; Pyramid3
+4; 3; 0.5; Cube; 2; 0.5; Pyramid3; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 3; 0.5; Cube; 2; 0.5; Pyramid3; 3; 0.5; Cube; 2; 0.5; Pyramid3; ; ; ; ; ; ; ; ; ; ; ; 

@@ -1,0 +1,76 @@
+{
+  "glue" : {
+    "view" : {
+      "scale" : 0.5,
+      "animationDuration" : 1
+    },
+    "name" : "Glue",
+    "isSpreadable" : true
+  },
+  "knockback" : {
+    "name" : "Knockback"
+  },
+  "burn" : {
+    "view" : {
+      "animationDuration" : 1,
+      "scale" : 1
+    },
+    "kind" : "Burn",
+    "name" : "Burn"
+  },
+  "frostbite" : {
+    "kind" : "Freeze",
+    "name" : "Freeze"
+  },
+  "slow" : {
+    "name" : "Slow"
+  },
+  "vulnerable" : {
+    "name" : "Vulnerable"
+  },
+  "resistantSlow" : {
+    "name" : "Resistant Slow"
+  },
+  "poison" : {
+    "name" : "Poison"
+  },
+  "stun" : {
+    "name" : "Stun"
+  },
+  "doom" : {
+    "name" : "Doom"
+  },
+  "chemBurn" : {
+    "view" : {
+      "animationDuration" : 1,
+      "scale" : 1
+    },
+    "name" : "Chemical-burn"
+  },
+  "hack" : {
+    "name" : "Hack"
+  },
+  "blackHoleStun" : {
+    "name" : "Black-hole"
+  },
+  "freeze" : {
+    "view" : {
+      "scale" : 0.5,
+      "animationDuration" : 1
+    },
+    "kind" : "Freeze",
+    "name" : "Freeze"
+  },
+  "frozenVulnerable" : {
+    "kind" : "Freeze",
+    "name" : "Frozen-vulnerable"
+  },
+  "disease" : {
+    "name" : "Disease",
+    "isSpreadable" : true
+  },
+  "resistantFreeze" : {
+    "name" : "Resistant Freeze",
+    "kind" : "Freeze"
+  }
+}

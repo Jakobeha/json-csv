@@ -1,0 +1,367 @@
+[
+  [
+    {
+      "count" : 10,
+      "type" : "Pyramid3",
+      "delayBetween" : 2
+    }
+  ],
+  [
+    {
+      "type" : "Pyramid3",
+      "delayBetween" : 0.125,
+      "count" : 15
+    }
+  ],
+  [
+    {
+      "type" : "Pyramid3",
+      "count" : 25,
+      "delayBetween" : 0.5
+    }
+  ],
+  [
+    {
+      "count" : 10,
+      "delayBetween" : 2,
+      "type" : "Cube"
+    }
+  ],
+  [
+    {
+      "type" : "Cube",
+      "count" : 3,
+      "delayBetween" : 0.5
+    },
+    {
+      "type" : "Pyramid3",
+      "count" : 2,
+      "delayBetween" : 0.5
+    },
+    {
+      "type" : "Cube",
+      "count" : 3,
+      "delayBetween" : 0.5
+    },
+    {
+      "type" : "Pyramid3",
+      "delayBetween" : 0.5,
+      "count" : 2
+    },
+    {
+      "type" : "Cube",
+      "count" : 3,
+      "delayBetween" : 0.5
+    },
+    {
+      "type" : "Pyramid3",
+      "count" : 2,
+      "delayBetween" : 0.5
+    }
+  ],
+  [
+    {
+      "type" : "Cube",
+      "count" : 20,
+      "delayBetween" : 0.125
+    }
+  ],
+  [
+    {
+      "delayBetween" : 1,
+      "count" : 25,
+      "type" : "Pyramid4"
+    }
+  ],
+  [
+    {
+      "delayBetween" : 0.0625,
+      "type" : "Pyramid4",
+      "count" : 50
+    }
+  ],
+  [
+    {
+      "delayBetween" : 0.25,
+      "count" : 3,
+      "type" : "Pyramid3"
+    },
+    {
+      "type" : "Pyramid4",
+      "delayBetween" : 0.25,
+      "count" : 3
+    },
+    {
+      "type" : "Cube",
+      "delayBetween" : 0.25,
+      "count" : 3
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Pyramid3"
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Pyramid4"
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Cube"
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Pyramid3"
+    },
+    {
+      "type" : "Pyramid4",
+      "delayBetween" : 0.25,
+      "count" : 3
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Cube"
+    },
+    {
+      "delayBetween" : 0.25,
+      "type" : "Pyramid3",
+      "count" : 3
+    },
+    {
+      "type" : "Pyramid3",
+      "delayBetween" : 0.25,
+      "count" : 3
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Cube"
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Pyramid3"
+    },
+    {
+      "count" : 3,
+      "delayBetween" : 0.25,
+      "type" : "Pyramid4"
+    },
+    {
+      "type" : "Cube",
+      "delayBetween" : 0.25,
+      "count" : 3
+    }
+  ],
+  [
+    {
+      "type" : "SuperCube",
+      "count" : 1,
+      "delayBetween" : 0
+    }
+  ],
+  [
+    {
+      "type" : "Prism5",
+      "delayBetween" : 2,
+      "count" : 25
+    }
+  ],
+  [
+    {
+      "count" : 20,
+      "delayBetween" : 0.125,
+      "type" : "Prism5"
+    }
+  ],
+  [
+    {
+      "type" : "Diamond4",
+      "delayBetween" : 0.25,
+      "count" : 30
+    }
+  ],
+  [
+    {
+      "delayBetween" : 0.050000000000000003,
+      "type" : "Diamond4",
+      "count" : 30
+    }
+  ],
+  [
+    {
+      "type" : "Prism5",
+      "count" : 5,
+      "delayBetween" : 0.25
+    },
+    {
+      "count" : 5,
+      "type" : "Diamond4",
+      "delayBetween" : 0.25
+    },
+    {
+      "type" : "Prism5",
+      "delayBetween" : 0.5,
+      "count" : 5
+    },
+    {
+      "delayBetween" : 0.25,
+      "count" : 5,
+      "type" : "Diamond4"
+    },
+    {
+      "count" : 5,
+      "delayBetween" : 0.5,
+      "type" : "Prism5"
+    },
+    {
+      "count" : 5,
+      "type" : "Diamond4",
+      "delayBetween" : 0.25
+    },
+    {
+      "count" : 5,
+      "delayBetween" : 0.5,
+      "type" : "Prism5"
+    },
+    {
+      "count" : 5,
+      "delayBetween" : 0.25,
+      "type" : "Diamond4"
+    },
+    {
+      "count" : 5,
+      "delayBetween" : 0.5,
+      "type" : "Prism5"
+    },
+    {
+      "count" : 50,
+      "delayBetween" : 0.25,
+      "type" : "Diamond4"
+    }
+  ],
+  [
+    {
+      "count" : 15,
+      "type" : "Dodecahedron",
+      "delayBetween" : 3
+    }
+  ],
+  [
+    {
+      "delayBetween" : 0.5,
+      "type" : "Diamond4",
+      "count" : 10
+    },
+    {
+      "type" : "Dodecahedron",
+      "count" : 1,
+      "delayBetween" : 0.5
+    },
+    {
+      "delayBetween" : 0.5,
+      "type" : "Diamond4",
+      "count" : 10
+    },
+    {
+      "type" : "Dodecahedron",
+      "count" : 1,
+      "delayBetween" : 0.5
+    },
+    {
+      "count" : 10,
+      "delayBetween" : 0.5,
+      "type" : "Diamond4"
+    },
+    {
+      "count" : 1,
+      "delayBetween" : 0.5,
+      "type" : "Dodecahedron"
+    },
+    {
+      "type" : "Diamond4",
+      "delayBetween" : 0.5,
+      "count" : 10
+    },
+    {
+      "type" : "Dodecahedron",
+      "delayBetween" : 0.5,
+      "count" : 1
+    },
+    {
+      "count" : 10,
+      "delayBetween" : 0.5,
+      "type" : "Diamond4"
+    },
+    {
+      "type" : "Dodecahedron",
+      "count" : 1,
+      "delayBetween" : 0.5
+    }
+  ],
+  [
+    {
+      "type" : "Dodecahedron",
+      "delayBetween" : 0.125,
+      "count" : 10
+    }
+  ],
+  [
+    {
+      "type" : "Prism5",
+      "count" : 100,
+      "delayBetween" : 0.125
+    },
+    {
+      "delayBetween" : 0.25,
+      "type" : "Diamond4",
+      "count" : 10
+    }
+  ],
+  [
+    {
+      "type" : "SuperPyramid3",
+      "count" : 8,
+      "delayBetween" : 4
+    }
+  ],
+  [
+    {
+      "delayBetween" : 3,
+      "count" : 10,
+      "type" : "StellatedDodecahedron"
+    }
+  ],
+  [
+    {
+      "count" : 10,
+      "type" : "StellatedDodecahedron",
+      "delayBetween" : 0.125
+    }
+  ],
+  [
+    {
+      "delayBetween" : 3,
+      "count" : 10,
+      "type" : "StellatedDodecahedron"
+    }
+  ],
+  [
+    {
+      "count" : 10,
+      "type" : "StellatedDodecahedron",
+      "delayBetween" : 0.125
+    }
+  ],
+  [
+    {
+      "type" : "Icosahedron",
+      "delayBetween" : 2,
+      "count" : 20
+    }
+  ]
+]

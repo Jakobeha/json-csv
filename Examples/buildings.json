@@ -1,0 +1,2750 @@
+{
+  "turretBomb" : [
+    [
+      [
+        {
+          "view" : {
+
+          },
+          "type" : "ProjectileTurret",
+          "description" : "Shoots a bomb which explodes on impact, damaging nearby enemies",
+          "cost" : {
+            "copper" : 75,
+            "iron" : 25
+          },
+          "name" : "Bomb launcher",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "fireRate" : 1.5,
+          "turnSpeed" : "720°",
+          "radius" : 6,
+          "projectile" : {
+            "damage" : 70,
+            "blastRadius" : 1,
+            "maxTravelDistance" : 6.5,
+            "type" : "Bomb",
+            "speed" : 7,
+            "view" : {
+              "textureName" : "Bomb"
+            },
+            "explosionView" : "Basic",
+            "size" : 0.5
+          }
+        },
+        {
+          "fireRate" : 1.5,
+          "cost" : {
+            "iron" : 125,
+            "copper" : 225
+          },
+          "projectile" : {
+            "damage" : 140,
+            "blastRadius" : 1,
+            "size" : 0.5,
+            "maxTravelDistance" : 6.5,
+            "explosionView" : "Basic",
+            "type" : "Bomb",
+            "view" : {
+              "textureName" : "BombHeavy"
+            },
+            "speed" : 7
+          },
+          "name" : "Heavy bombs",
+          "radius" : 6,
+          "description" : "Increased damage",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "view" : {
+
+          },
+          "turnSpeed" : "720°",
+          "type" : "ProjectileTurret"
+        },
+        {
+          "turnSpeed" : "720°",
+          "projectile" : {
+            "view" : {
+              "textureName" : "BombPropane"
+            },
+            "blastRadius" : 1.2,
+            "damage" : 280,
+            "effects" : [
+              {
+                "dps" : 20,
+                "type" : "Burn",
+                "duration" : 5
+              }
+            ],
+            "explosionView" : "Basic",
+            "speed" : 7,
+            "size" : 0.59999999999999998,
+            "maxTravelDistance" : 6.5,
+            "type" : "Bomb"
+          },
+          "fireRate" : 1.8,
+          "radius" : 6,
+          "view" : {
+
+          },
+          "type" : "ProjectileTurret",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "name" : "Propane bombs",
+          "description" : "Increased damage, slight burn",
+          "cost" : {
+            "coal" : 150,
+            "iron" : 375,
+            "copper" : 475
+          }
+        },
+        {
+          "view" : {
+
+          },
+          "radius" : 6,
+          "fireRate" : 1.98,
+          "description" : "Slightly increased damage, major burn",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "cost" : {
+            "iron" : 375,
+            "coal" : 400,
+            "copper" : 975
+          },
+          "name" : "Napalm bombs",
+          "projectile" : {
+            "size" : 0.71999999999999997,
+            "type" : "Bomb",
+            "effects" : [
+              {
+                "type" : "Burn",
+                "duration" : 5,
+                "dps" : 80
+              }
+            ],
+            "blastRadius" : 1.4399999999999999,
+            "maxTravelDistance" : 6.5,
+            "explosionView" : "Basic",
+            "view" : {
+              "textureName" : "BombNapalm"
+            },
+            "speed" : 7,
+            "damage" : 336
+          },
+          "type" : "ProjectileTurret",
+          "turnSpeed" : "720°"
+        },
+        {
+          "projectile" : {
+            "type" : "Bomb",
+            "view" : {
+              "textureName" : "BombNuke"
+            },
+            "speed" : 7,
+            "effects" : [
+              {
+                "dps" : 320,
+                "type" : "ChemBurn",
+                "duration" : 7.5
+              }
+            ],
+            "maxTravelDistance" : 6.5,
+            "size" : 0.86399999999999999,
+            "explosionView" : "Nuke",
+            "damage" : 1008,
+            "blastRadius" : 2.8799999999999999
+          },
+          "cost" : {
+            "copper" : 1075,
+            "coal" : 2900,
+            "uranium" : 2500
+          },
+          "fireRate" : 2.9700000000000002,
+          "type" : "ProjectileTurret",
+          "radius" : 6,
+          "name" : "Atomic bombs",
+          "turnSpeed" : "720°",
+          "description" : "Increased damage and blast radius, replaces effect with chemical burn",
+          "view" : {
+
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ]
+        }
+      ],
+      [
+        {
+          "view" : {
+
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "description" : "Increased range, and bombs travel above enemies to target",
+          "projectile" : {
+            "damage" : 105,
+            "speed" : 7,
+            "type" : "AirBomb",
+            "blastRadius" : 1,
+            "explosionView" : "Basic",
+            "view" : {
+              "textureName" : "Bomb",
+              "arcs" : true
+            }
+          },
+          "needsToRotateToTarget" : false,
+          "radius" : 7.5,
+          "turnSpeed" : "720°",
+          "type" : "ProjectileTurret",
+          "name" : "Upward launcher",
+          "cost" : {
+            "aluminum" : 25
+          },
+          "fireRate" : 1.5
+        }
+      ],
+      [
+        {
+          "projectile" : {
+            "speed" : 9,
+            "type" : "Missile",
+            "explosionView" : "Basic",
+            "view" : {
+              "arcs" : true,
+              "textureName" : "Missile"
+            },
+            "blastRadius" : 1,
+            "damage" : 126
+          },
+          "fireRate" : 1.2,
+          "cost" : {
+            "aluminum" : 100
+          },
+          "type" : "ProjectileTurret",
+          "radius" : 10,
+          "needsToRotateToTarget" : false,
+          "name" : "Missile launcher",
+          "turnSpeed" : "720°",
+          "description" : "Massive range, shoots missiles which hone onto targets",
+          "view" : {
+
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ]
+        }
+      ],
+      [
+        {
+          "name" : "Triple launcher",
+          "description" : "Shoots 3 missiles at once. Special targeting mode means that each missile will target different enemies",
+          "radius" : 10,
+          "projectile" : {
+            "type" : "Missile",
+            "blastRadius" : 1,
+            "explosionView" : "Basic",
+            "view" : {
+              "arcs" : true,
+              "textureName" : "Missile"
+            },
+            "speed" : 9,
+            "damage" : 126
+          },
+          "numProjectiles" : 3,
+          "turnSpeed" : "720°",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "fireRate" : 1.2,
+          "view" : {
+
+          },
+          "type" : "ProjectileTurret",
+          "cost" : {
+            "aluminum" : 350
+          },
+          "needsToRotateToTarget" : false
+        }
+      ],
+      [
+        {
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "cost" : {
+            "aluminum" : 1350
+          },
+          "fireRate" : 0.17142857142857101,
+          "projectile" : {
+            "type" : "Missile",
+            "explosionView" : "Basic",
+            "blastRadius" : 1,
+            "damage" : 126,
+            "view" : {
+              "textureName" : "Missile",
+              "arcs" : true
+            },
+            "speed" : 9
+          },
+          "view" : {
+
+          },
+          "name" : "Silo",
+          "needsToRotateToTarget" : false,
+          "type" : "ProjectileTurret",
+          "turnSpeed" : "720°",
+          "radius" : 12,
+          "description" : "Increased range, shoots individual bombs but 7x as fast"
+        }
+      ],
+      [
+        {
+          "projectile" : {
+            "blastRadius" : 1.3999999999999999,
+            "type" : "Missile",
+            "speed" : 14,
+            "explosionView" : "Basic",
+            "damage" : 378,
+            "view" : {
+              "arcs" : true,
+              "textureName" : "MissileSuper"
+            }
+          },
+          "radius" : 14,
+          "view" : {
+
+          },
+          "fireRate" : 0.12,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "name" : "Super Silo",
+          "cost" : {
+            "aluminum" : 3850
+          },
+          "description" : "Shoots better missiles, increased range, slightly faster than before",
+          "needsToRotateToTarget" : false,
+          "type" : "ProjectileTurret",
+          "turnSpeed" : "720°"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "turnSpeed" : "720°",
+          "name" : "Big bombs",
+          "fireRate" : 1.5,
+          "view" : {
+
+          },
+          "projectile" : {
+            "blastRadius" : 1.3999999999999999,
+            "size" : 0.75,
+            "explosionView" : "Basic",
+            "damage" : 84,
+            "view" : {
+              "textureName" : "BombBig"
+            },
+            "speed" : 7,
+            "type" : "Bomb",
+            "maxTravelDistance" : 6.5
+          },
+          "radius" : 6,
+          "description" : "Increased blast radius",
+          "cost" : {
+            "coal" : 75
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "type" : "ProjectileTurret"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "projectile" : {
+            "maxTravelDistance" : 5,
+            "size" : 1.125,
+            "explosionView" : "Basic",
+            "blastRadius" : 1.6799999999999999,
+            "damage" : 117.59999999999999,
+            "speed" : 5.5,
+            "type" : "Bomb",
+            "view" : {
+              "textureName" : "BombGiant"
+            },
+            "effects" : [
+              {
+                "type" : "Stun",
+                "duration" : 0.25
+              },
+              {
+                "type" : "Knockback",
+                "duration" : 0.25,
+                "distancePerSecond" : 0.5
+              }
+            ]
+          },
+          "turnSpeed" : "720°",
+          "radius" : 4.5,
+          "cost" : {
+            "coal" : 275
+          },
+          "fireRate" : 1.5,
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          },
+          "name" : "Giant bombs",
+          "description" : "Increased blast radius, slight knockback",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ]
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "view" : {
+
+          },
+          "description" : "Stuns enemies, and more knockback and damage",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "turnSpeed" : "720°",
+          "type" : "ProjectileTurret",
+          "radius" : 4.5,
+          "name" : "Stun bomb",
+          "projectile" : {
+            "view" : {
+              "textureName" : "BombStun"
+            },
+            "size" : 1.125,
+            "damage" : 164.63999999999999,
+            "maxTravelDistance" : 5,
+            "type" : "Bomb",
+            "blastRadius" : 1.8480000000000001,
+            "explosionView" : "Basic",
+            "effects" : [
+              {
+                "type" : "Stun",
+                "duration" : 1
+              },
+              {
+                "distancePerSecond" : 0.5,
+                "type" : "Knockback",
+                "duration" : 1
+              }
+            ],
+            "speed" : 4.5
+          },
+          "cost" : {
+            "coal" : 775
+          },
+          "fireRate" : 1.5
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "description" : "Bombs create a black hole which stuns even resistant enemies and draws them to the center",
+          "projectile" : {
+            "damage" : 0,
+            "effects" : [
+              {
+                "pullPerSecond" : 0.25,
+                "dps" : 300,
+                "type" : "BlackHoleStun",
+                "duration" : 4
+              }
+            ],
+            "type" : "AirBomb",
+            "explosionView" : "BlackHole",
+            "blastRadius" : 4,
+            "view" : {
+              "arcs" : "False",
+              "textureName" : "BombBlackHole"
+            },
+            "speed" : 3
+          },
+          "fireRate" : 4,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "type" : "ProjectileTurret",
+          "turnSpeed" : "720°",
+          "cost" : {
+            "coal" : 10775
+          },
+          "radius" : 4.5,
+          "view" : {
+
+          },
+          "name" : "Black hole bomb"
+        }
+      ]
+    ]
+  ],
+  "freeze" : [
+    [
+      [
+        {
+          "type" : "RadialFreeze",
+          "name" : "Ice tower",
+          "effects" : [
+            {
+              "type" : "Freeze",
+              "speedMultiplier" : 0.5
+            }
+          ],
+          "view" : {
+            "animationDuration" : 2
+          },
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "cost" : {
+            "iron" : 125
+          },
+          "radius" : 2.5,
+          "description" : "Slows enemies in range. Remember that burn and freeze cancel each other out"
+        },
+        {
+          "type" : "RadialFreeze",
+          "name" : "Bigger radius",
+          "effects" : [
+            {
+              "type" : "Freeze",
+              "speedMultiplier" : 0.5,
+              "duration" : 1
+            }
+          ],
+          "view" : {
+            "animationDuration" : 2
+          },
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "cost" : {
+            "iron" : 275
+          },
+          "radius" : 3.5,
+          "description" : "Bigger radius to freeze"
+        },
+        {
+          "description" : "Enemies stay frozen after they leave and 'thaw out' over a period of time",
+          "name" : "Snow-blower",
+          "view" : {
+            "animationDuration" : 2
+          },
+          "radius" : 4.25,
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "type" : "RadialFreeze",
+          "effects" : [
+            {
+              "speedMultiplier" : 0.5,
+              "type" : "Freeze",
+              "duration" : 2
+            },
+            {
+              "damageMultiplier" : 1.125,
+              "type" : "FrozenVulnerable",
+              "duration" : 1
+            }
+          ],
+          "cost" : {
+            "iron" : 1025
+          }
+        },
+        {
+          "radius" : 4.5,
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "description" : "Enemies move slower, and affect resistant enemies",
+          "cost" : {
+            "iron" : 3275
+          },
+          "view" : {
+            "animationDuration" : 2
+          },
+          "name" : "Chill reactor",
+          "effects" : [
+            {
+              "speedMultiplier" : 0.5,
+              "duration" : 4,
+              "type" : "Freeze"
+            },
+            {
+              "type" : "ResistantFreeze",
+              "duration" : 1,
+              "speedMultiplier" : 0.69999999999999996
+            },
+            {
+              "damageMultiplier" : 1.2375,
+              "type" : "FrozenVulnerable"
+            }
+          ],
+          "type" : "RadialFreeze"
+        }
+      ],
+      [
+        {
+          "type" : "RadialFreeze",
+          "name" : "Slower",
+          "description" : "Slows enemies more",
+          "radius" : 2.5,
+          "cost" : {
+            "iron" : 300
+          },
+          "effects" : [
+            {
+              "type" : "Freeze",
+              "speedMultiplier" : 0.40000000000000002
+            },
+            {
+              "speedMultiplier" : 0.94999999999999996,
+              "type" : "ResistantFreeze"
+            }
+          ],
+          "view" : {
+            "animationDuration" : 2
+          },
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ]
+        }
+      ],
+      [
+        {
+          "name" : "Wind chill",
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "effects" : [
+            {
+              "type" : "Freeze",
+              "speedMultiplier" : 0.44
+            },
+            {
+              "type" : "ResistantFreeze",
+              "speedMultiplier" : 0.85499999999999998
+            },
+            {
+              "type" : "Frostbite",
+              "dps" : 40
+            },
+            {
+              "type" : "FrozenVulnerable",
+              "damageMultiplier" : 1.25
+            }
+          ],
+          "view" : {
+            "animationDuration" : 2
+          },
+          "radius" : 2.5,
+          "cost" : {
+            "iron" : 600
+          },
+          "description" : "Enemies are less resistant to other attacks, and take slight damage while in radius",
+          "type" : "RadialFreeze"
+        }
+      ],
+      [
+        {
+          "effects" : [
+            {
+              "speedMultiplier" : 0.48399999999999999,
+              "type" : "Freeze"
+            },
+            {
+              "type" : "ResistantFreeze",
+              "speedMultiplier" : 0.76949999999999996
+            },
+            {
+              "type" : "Frostbite",
+              "dps" : 320
+            },
+            {
+              "damageMultiplier" : 1.75,
+              "type" : "FrozenVulnerable"
+            }
+          ],
+          "cost" : {
+            "iron" : 1500
+          },
+          "radius" : 2.5,
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "view" : {
+            "animationDuration" : 2
+          },
+          "name" : "Ultra cold",
+          "type" : "RadialFreeze",
+          "description" : "Enemies take a lot of damage while in radius"
+        }
+      ],
+      [
+        {
+          "type" : "RadialFreeze",
+          "name" : "Insane cold",
+          "effects" : [
+            {
+              "type" : "Freeze",
+              "speedMultiplier" : 0.58079999999999998
+            },
+            {
+              "speedMultiplier" : 0.61560000000000004,
+              "type" : "ResistantFreeze"
+            },
+            {
+              "type" : "Frostbite",
+              "dps" : 640
+            },
+            {
+              "damageMultiplier" : 2.4500000000000002,
+              "type" : "FrozenVulnerable"
+            }
+          ],
+          "radius" : 2,
+          "cost" : {
+            "iron" : 6000,
+            "uranium" : 1000
+          },
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "view" : {
+            "animationDuration" : 2
+          },
+          "description" : "Increased vulnerability, slightly increased damage, affects resistant enemies more"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "name" : "Ice shooter",
+          "type" : "ProjectileTurret",
+          "cost" : {
+            "aluminum" : 250,
+            "iron" : 125
+          },
+          "projectile" : {
+            "effects" : [
+              {
+                "type" : "Freeze",
+                "speedMultiplier" : 0.5
+              }
+            ],
+            "speed" : 3,
+            "type" : "MovingArea",
+            "view" : {
+              "textureName" : "FreezeBall"
+            },
+            "dps" : 0,
+            "size" : 2.5,
+            "maxTravelDistance" : 5
+          },
+          "view" : {
+            "animationDuration" : 2
+          },
+          "radius" : 4,
+          "description" : "Shoots projectiles that freeze nearby enemies",
+          "fireRate" : 2,
+          "turnSpeed" : "360°",
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ]
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "cost" : {
+            "aluminum" : 750,
+            "iron" : 125
+          },
+          "fireRate" : 2,
+          "radius" : 4,
+          "turnSpeed" : "360°",
+          "view" : {
+            "animationDuration" : 2
+          },
+          "projectile" : {
+            "speed" : 2.3999999999999999,
+            "dps" : 0,
+            "type" : "MovingArea",
+            "view" : {
+              "textureName" : "FreezeBall"
+            },
+            "maxTravelDistance" : 6,
+            "effects" : [
+              {
+                "type" : "Freeze",
+                "speedMultiplier" : 0.40000000000000002
+              }
+            ],
+            "size" : 2.75
+          },
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "type" : "ProjectileTurret",
+          "name" : "Cold shooter",
+          "description" : "Projectiles slow more and travel further"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "name" : "Chill shooter",
+          "description" : "Projectiles cause affected enemies to be more vulnerable",
+          "view" : {
+            "animationDuration" : 2
+          },
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ],
+          "turnSpeed" : "360°",
+          "projectile" : {
+            "maxTravelDistance" : 7,
+            "view" : {
+              "textureName" : "FreezeBall"
+            },
+            "size" : 3,
+            "speed" : 1.9199999999999999,
+            "type" : "MovingArea",
+            "dps" : 0,
+            "effects" : [
+              {
+                "type" : "Freeze",
+                "speedMultiplier" : 0.5
+              },
+              {
+                "type" : "ResistantFreeze",
+                "speedMultiplier" : 0.80000000000000004
+              },
+              {
+                "type" : "FrozenVulnerable",
+                "damageMultiplier" : 1.5
+              }
+            ]
+          },
+          "fireRate" : 2,
+          "type" : "ProjectileTurret",
+          "radius" : 4,
+          "cost" : {
+            "iron" : 125,
+            "aluminum" : 1500
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "projectile" : {
+            "speed" : 1.536,
+            "view" : {
+              "textureName" : "FreezeBall"
+            },
+            "effects" : [
+              {
+                "duration" : 0.5,
+                "type" : "Freeze",
+                "speedMultiplier" : 0.5
+              },
+              {
+                "duration" : 0.5,
+                "type" : "ResistantFreeze",
+                "speedMultiplier" : 0.71999999999999997
+              },
+              {
+                "duration" : 0.5,
+                "damageMultiplier" : 1.8,
+                "type" : "FrozenVulnerable"
+              },
+              {
+                "duration" : 0.5,
+                "type" : "Frostbite",
+                "dps" : 175
+              }
+            ],
+            "maxTravelDistance" : 8,
+            "type" : "MovingArea",
+            "size" : 3,
+            "dps" : 0
+          },
+          "name" : "Freeze shooter",
+          "description" : "Projectiles inflict minor damage on enemies",
+          "turnSpeed" : "360°",
+          "cost" : {
+            "uranium" : 500,
+            "aluminum" : 4000,
+            "iron" : 125
+          },
+          "view" : {
+            "animationDuration" : 2
+          },
+          "fireRate" : 2,
+          "type" : "ProjectileTurret",
+          "radius" : 4,
+          "terrains" : [
+            "Grass",
+            "Rocks",
+            "Snow"
+          ]
+        }
+      ]
+    ]
+  ],
+  "mine" : [
+    [
+      [
+        {
+          "view" : {
+
+          },
+          "description" : "Mines nearby ores, increasing your resources",
+          "degradeMultiplier" : 0.75,
+          "name" : "Mine",
+          "radius" : 2,
+          "ironOresPerYield" : 1,
+          "cost" : {
+            "iron" : 250,
+            "gold" : 100,
+            "coal" : 250,
+            "uranium" : 1000,
+            "aluminum" : 500
+          },
+          "type" : "BasicMine",
+          "oresPerYield" : 10,
+          "isDegradeLocal" : true,
+          "ticksPerYield" : 800
+        },
+        {
+          "ironOresPerYield" : 5,
+          "type" : "BasicMine",
+          "description" : "Only mines its own tile, but faster and more consistently",
+          "degradeMultiplier" : 0.75,
+          "ticksPerYield" : 16,
+          "cost" : {
+            "iron" : 250,
+            "uranium" : 2500,
+            "aluminum" : 500,
+            "gold" : 150,
+            "coal" : 250
+          },
+          "view" : {
+
+          },
+          "name" : "Laser mine",
+          "radius" : 1,
+          "isDegradeLocal" : false,
+          "oresPerYield" : 1
+        },
+        {
+          "radius" : 1,
+          "ticksPerYield" : 16,
+          "type" : "IronMine",
+          "oresPerYield" : 4,
+          "description" : "Mines faster, and additionally mines iron",
+          "view" : {
+
+          },
+          "name" : "Deep laser mine",
+          "cost" : {
+            "iron" : 2750,
+            "gold" : 400,
+            "aluminum" : 8000,
+            "uranium" : 2500
+          }
+        },
+        {
+          "description" : "Mines insane amounts of iron. Breaks <TODO> towers",
+          "cost" : {
+            "gold" : 1150
+          },
+          "ticksPerYield" : 1,
+          "oresPerYield" : 2,
+          "name" : "Core laser mine",
+          "radius" : 1,
+          "view" : {
+
+          },
+          "type" : "IronMine"
+        }
+      ],
+      [
+        {
+          "description" : "Mines larger yields but slower",
+          "cost" : {
+            "gold" : 200
+          },
+          "ticksPerYield" : 1600,
+          "oresPerYield" : 50,
+          "name" : "Bomb mine",
+          "radius" : 2,
+          "view" : {
+
+          },
+          "type" : "BasicMine"
+        }
+      ],
+      [
+        {
+          "name" : "Bigger bomb mine",
+          "ticksPerYield" : 3200,
+          "view" : {
+
+          },
+          "cost" : {
+            "gold" : 400
+          },
+          "description" : "Mines larger yields and radius but slower",
+          "radius" : 3,
+          "oresPerYield" : 200,
+          "type" : "BasicMine"
+        }
+      ],
+      [
+        {
+          "name" : "Atomic bomb mine",
+          "ticksPerYield" : 6400,
+          "view" : {
+
+          },
+          "cost" : {
+            "gold" : 1250
+          },
+          "description" : "Massive yields",
+          "radius" : 3,
+          "oresPerYield" : 2000,
+          "type" : "BasicMine"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "name" : "Larger radius",
+          "ticksPerYield" : 1200,
+          "view" : {
+
+          },
+          "cost" : {
+            "gold" : 200
+          },
+          "description" : "Mines a bigger radius, but less ore",
+          "radius" : 3,
+          "oresPerYield" : 7,
+          "type" : "BasicMine"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "cost" : {
+            "gold" : 350
+          },
+          "description" : "Mines an even larger radius, but degrades buildings in the mining zone",
+          "radius" : 5,
+          "oresPerYield" : 21,
+          "type" : "FrackingMine",
+          "name" : "Fracking mine",
+          "view" : {
+
+          },
+          "ticksPerYield" : 1800
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "name" : "Super fracking mine",
+          "ticksPerYield" : 2700,
+          "view" : {
+
+          },
+          "cost" : {
+            "gold" : 800
+          },
+          "description" : "Mines a huge radius, but degrades every tower",
+          "radius" : 10,
+          "oresPerYield" : 189,
+          "type" : "FrackingMine"
+        }
+      ]
+    ]
+  ],
+  "turretFlamethrower" : [
+    [
+      [
+        {
+          "radius" : 2,
+          "view" : {
+
+          },
+          "cost" : {
+            "coal" : 25,
+            "gold" : 150,
+            "copper" : 250,
+            "iron" : 50
+          },
+          "fireRate" : 0.0625,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "turnSpeed" : "360°",
+          "projectile" : {
+            "view" : {
+              "textureName" : "Fire"
+            },
+            "pierce" : 3,
+            "maxTravelDistance" : 2,
+            "speed" : 8,
+            "size" : 0.25,
+            "damage" : 10,
+            "effects" : [
+              {
+                "dps" : 15,
+                "type" : "Burn",
+                "duration" : 5
+              }
+            ],
+            "type" : "Basic"
+          },
+          "name" : "Flamethrower",
+          "description" : "Close range tower with good pierce and a burn effect which persists after enemies leave the tower's radius",
+          "type" : "ProjectileTurret"
+        },
+        {
+          "radius" : 2,
+          "view" : {
+
+          },
+          "cost" : {
+            "coal" : 125,
+            "copper" : 650,
+            "iron" : 75,
+            "gold" : 600
+          },
+          "fireRate" : 0.0625,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "turnSpeed" : "360°",
+          "projectile" : {
+            "speed" : 8,
+            "size" : 0.25,
+            "type" : "Basic",
+            "damage" : 20,
+            "pierce" : 4,
+            "view" : {
+              "textureName" : "FireVolatile"
+            },
+            "effects" : [
+              {
+                "type" : "Burn",
+                "duration" : 7.5,
+                "dps" : 60
+              }
+            ],
+            "maxTravelDistance" : 2
+          },
+          "name" : "More volatile fuel",
+          "description" : "More direct damage, much more burn damage, and longer lasting burn",
+          "type" : "ProjectileTurret"
+        },
+        {
+          "radius" : 2,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "projectile" : {
+            "pierce" : 5,
+            "damage" : 40,
+            "type" : "Basic",
+            "maxTravelDistance" : 2,
+            "effects" : [
+              {
+                "type" : "Burn",
+                "duration" : 11.25,
+                "dps" : 120
+              }
+            ],
+            "size" : 0.25,
+            "speed" : 8,
+            "view" : {
+              "textureName" : "FireYellow"
+            }
+          },
+          "cost" : {
+            "coal" : 525,
+            "iron" : 150,
+            "copper" : 2250
+          },
+          "name" : "Yellow fire",
+          "fireRate" : 0.0625,
+          "description" : "More pierce, damage, burn damage, and burn lasts much longer",
+          "turnSpeed" : "360°",
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          }
+        },
+        {
+          "radius" : 2.5,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "projectile" : {
+            "pierce" : 7,
+            "damage" : 80,
+            "maxTravelDistance" : 2.5,
+            "view" : {
+              "textureName" : "FireGreen"
+            },
+            "speed" : 8,
+            "type" : "Basic",
+            "effects" : [
+              {
+                "duration" : 16.875,
+                "type" : "ChemBurn",
+                "dps" : 240
+              }
+            ],
+            "size" : 0.25
+          },
+          "cost" : {
+            "coal" : 1325,
+            "copper" : 8650,
+            "iron" : 375
+          },
+          "name" : "Green fire",
+          "fireRate" : 0.0625,
+          "description" : "Chemical burn (can be combined with freeze), more damage",
+          "turnSpeed" : "432°",
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          }
+        },
+        {
+          "radius" : 2.5,
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          },
+          "projectile" : {
+            "maxTravelDistance" : 2.5,
+            "size" : 0.25,
+            "speed" : 8,
+            "pierce" : 9,
+            "view" : {
+              "textureName" : "FireBlack"
+            },
+            "damage" : 160,
+            "effects" : [
+              {
+                "fractionDpsChangeDuration" : 3,
+                "type" : "Doom",
+                "initialFractionDps" : 0.25,
+                "finalFractionDps" : 0.040000000000000001,
+                "vulnerabilityDamageMultiplier" : 1.75,
+                "speedMultiplier" : 0.75
+              }
+            ],
+            "type" : "Basic"
+          },
+          "fireRate" : 0.0625,
+          "description" : "Replaces with the doom effect: major percent damage over time, slower speed, and multiplied damage from all attacks, permanently",
+          "cost" : {
+            "coal" : 2925,
+            "iron" : 825,
+            "uranium" : 1000
+          },
+          "name" : "Black fire",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "turnSpeed" : "518°"
+        }
+      ],
+      [
+        {
+          "projectile" : {
+            "size" : 0.25,
+            "maxTravelDistance" : 2.25,
+            "type" : "Basic",
+            "damage" : 30,
+            "pierce" : 7,
+            "view" : {
+              "textureName" : "Fire"
+            },
+            "effects" : [
+              {
+                "type" : "Burn",
+                "duration" : 5,
+                "dps" : 22.5
+              }
+            ],
+            "speed" : 8
+          },
+          "type" : "ProjectileTurret",
+          "description" : "Increased pierce, damage, and turn speed",
+          "radius" : 2.25,
+          "cost" : {
+            "coal" : 150,
+            "iron" : 1725
+          },
+          "turnSpeed" : "540°",
+          "view" : {
+
+          },
+          "name" : "Faster fuel",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "fireRate" : 0.0625
+        }
+      ],
+      [
+        {
+          "type" : "ProjectileTurret",
+          "cost" : {
+            "coal" : 400
+          },
+          "view" : {
+
+          },
+          "radius" : 2.5,
+          "projectile" : {
+            "type" : "Basic",
+            "damage" : 60,
+            "effects" : [
+              {
+                "dps" : 45,
+                "duration" : 7,
+                "type" : "Burn"
+              }
+            ],
+            "view" : {
+              "textureName" : "FireBig"
+            },
+            "maxTravelDistance" : 2.5,
+            "pierce" : 9,
+            "speed" : 8,
+            "size" : 0.375
+          },
+          "turnSpeed" : "648°",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "fireRate" : 0.0625,
+          "description" : "Increased pierce, damage, turn speed, and projectile size",
+          "name" : "Larger flames"
+        }
+      ],
+      [
+        {
+          "type" : "ProjectileTurret",
+          "cost" : {
+            "coal" : 900
+          },
+          "view" : {
+
+          },
+          "radius" : 2.5,
+          "projectile" : {
+            "pierce" : 14,
+            "maxTravelDistance" : 2.5,
+            "size" : 0.45000000000000001,
+            "speed" : 8,
+            "type" : "Basic",
+            "effects" : [
+              {
+                "duration" : 7,
+                "type" : "Burn",
+                "dps" : 45
+              }
+            ],
+            "view" : {
+              "textureName" : "FireBig"
+            },
+            "damage" : 90
+          },
+          "turnSpeed" : "0°",
+          "description" : "Shoots flames around the entire tower (TODO)",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "fireRate" : 0.0625,
+          "name" : "Circle of fire"
+        }
+      ],
+      [
+        {
+          "cost" : {
+            "coal" : 2400
+          },
+          "projectile" : {
+            "type" : "Basic",
+            "damage" : 180,
+            "speed" : 8,
+            "size" : 0.45000000000000001,
+            "effects" : [
+              {
+                "dps" : 67.5,
+                "duration" : 8.4000000000000004,
+                "type" : "Burn"
+              }
+            ],
+            "view" : {
+              "textureName" : "FireBig"
+            },
+            "maxTravelDistance" : 3,
+            "pierce" : 20
+          },
+          "fireRate" : 0.0625,
+          "view" : {
+
+          },
+          "radius" : 3,
+          "turnSpeed" : "0°",
+          "name" : "Golden circle",
+          "type" : "ProjectileTurret",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "description" : "Increased range and damage (TODO)"
+        }
+      ],
+      [
+        {
+          "turnSpeed" : "0°",
+          "cost" : {
+            "coal" : 5400,
+            "uranium" : 1000
+          },
+          "projectile" : {
+            "size" : 0.45000000000000001,
+            "damage" : 540,
+            "maxTravelDistance" : 3,
+            "pierce" : 40,
+            "type" : "Basic",
+            "speed" : 8,
+            "effects" : [
+              {
+                "type" : "Burn",
+                "duration" : 8.4000000000000004,
+                "dps" : 135
+              },
+              {
+                "speedMultiplier" : 0.5,
+                "duration" : 0.25,
+                "type" : "Slow"
+              },
+              {
+                "damageMultiplier" : 1.5,
+                "duration" : 0.25,
+                "type" : "Vulnerable"
+              }
+            ],
+            "view" : {
+              "textureName" : "FireBig"
+            }
+          },
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks"
+          ],
+          "fireRate" : 0.0625,
+          "radius" : 3,
+          "name" : "Inferno",
+          "description" : "Massive damage, and makes enemies in radius slower and more vulnerable"
+        }
+      ]
+    ]
+  ],
+  "turretBasic" : [
+    [
+      [
+        {
+          "description" : "All-around turret with medium damage, fire rate, and range. No pierce and projectiles travel fast",
+          "turnSpeed" : "720°",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "name" : "Standard",
+          "radius" : 4,
+          "cost" : {
+            "gold" : 100,
+            "iron" : 50
+          },
+          "fireRate" : 0.5,
+          "view" : {
+
+          },
+          "projectile" : {
+            "speed" : 18,
+            "damage" : 50,
+            "effects" : [
+              {
+                "fractionDps" : 0.025000000000000001,
+                "type" : "ChemBurn",
+                "dps" : 4032,
+                "duration" : 0.25
+              }
+            ],
+            "maxTravelDistance" : 4.5,
+            "fractionDamage" : 0.14999999999999999,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "pierce" : 1,
+            "type" : "Basic",
+            "size" : 0.0625
+          },
+          "type" : "ProjectileTurret"
+        },
+        {
+          "name" : "Bronze standard",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "turnSpeed" : "720°",
+          "description" : "Increased fire rate, range, and damage",
+          "radius" : 4.25,
+          "cost" : {
+            "gold" : 100,
+            "iron" : 150
+          },
+          "fireRate" : 0.40000000000000002,
+          "view" : {
+
+          },
+          "projectile" : {
+            "maxTravelDistance" : 4.75,
+            "pierce" : 1,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "type" : "Basic",
+            "speed" : 18,
+            "effects" : [
+              {
+                "fractionDps" : 0.025000000000000001,
+                "duration" : 15,
+                "type" : "Hack"
+              }
+            ],
+            "damage" : 75,
+            "fractionDamage" : 0.14999999999999999,
+            "size" : 0.0625
+          },
+          "type" : "ProjectileTurret"
+        },
+        {
+          "turnSpeed" : "720°",
+          "type" : "ProjectileTurret",
+          "cost" : {
+            "gold" : 100,
+            "iron" : 350
+          },
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "view" : {
+
+          },
+          "projectile" : {
+            "effects" : [
+              {
+                "duration" : 15,
+                "fractionDps" : 0.025000000000000001,
+                "type" : "Hack"
+              }
+            ],
+            "damage" : 112,
+            "type" : "Basic",
+            "speed" : 18,
+            "pierce" : 2,
+            "fractionDamage" : 0.14999999999999999,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "maxTravelDistance" : 5,
+            "size" : 0.0625
+          },
+          "radius" : 4.5,
+          "description" : "Increased damage, fire rate, range, and pierce",
+          "fireRate" : 0.32000000000000001,
+          "name" : "Silver standard"
+        },
+        {
+          "turnSpeed" : "720°",
+          "radius" : 5,
+          "name" : "Gold standard",
+          "description" : "Increased range, pierce, damage, and fire rate",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "view" : {
+
+          },
+          "type" : "ProjectileTurret",
+          "fireRate" : 0.25600000000000001,
+          "cost" : {
+            "gold" : 300,
+            "iron" : 750
+          },
+          "projectile" : {
+            "speed" : 20,
+            "maxTravelDistance" : 5.5,
+            "size" : 0.0625,
+            "damage" : 168,
+            "effects" : [
+              {
+                "type" : "Hack",
+                "duration" : 18
+              }
+            ],
+            "type" : "Basic",
+            "view" : {
+              "textureName" : "BulletGold"
+            },
+            "pierce" : 4,
+            "fractionDamage" : 0.12
+          }
+        },
+        {
+          "turnSpeed" : "720°",
+          "fireRate" : 0.20480000000000001,
+          "radius" : 6,
+          "name" : "Platinum standard",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          },
+          "cost" : {
+            "gold" : 300,
+            "iron" : 1550
+          },
+          "description" : "Increased pierce, damage, fire rate, and range",
+          "projectile" : {
+            "size" : 0.0625,
+            "type" : "Basic",
+            "view" : {
+              "textureName" : "BulletPlatinum"
+            },
+            "pierce" : 8,
+            "damage" : 252,
+            "maxTravelDistance" : 6.5,
+            "speed" : 24
+          }
+        },
+        {
+          "name" : "The best one",
+          "description" : "This tower is better than you are",
+          "fireRate" : 0.01,
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "radius" : 100,
+          "cost" : {
+            "iron" : 101550
+          },
+          "projectile" : {
+            "damage" : 1000,
+            "size" : 0.25,
+            "view" : {
+              "textureName" : "Best"
+            },
+            "pierce" : 1e+100,
+            "speed" : 24,
+            "type" : "Basic",
+            "maxTravelDistance" : 100
+          },
+          "type" : "ProjectileTurret",
+          "turnSpeed" : "720°",
+          "view" : {
+
+          }
+        }
+      ],
+      [
+        {
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "name" : "Sniper",
+          "turnSpeed" : "720°",
+          "radius" : 9,
+          "type" : "SniperTurret",
+          "cost" : {
+            "iron" : 125
+          },
+          "description" : "Big range increase, and fires instant projectiles which are guaranteed to hit the intended target. However, fires much slower",
+          "view" : {
+
+          },
+          "projectile" : {
+            "damage" : 500
+          },
+          "fireRate" : 3
+        },
+        [
+
+        ],
+        {
+          "turnSpeed" : "720°",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "name" : "Silver standard lvl2",
+          "description" : "Increased damage, range, and projectile speed",
+          "radius" : 5.5,
+          "cost" : {
+            "gold" : 300,
+            "iron" : 550
+          },
+          "fireRate" : 0.32000000000000001,
+          "view" : {
+
+          },
+          "projectile" : {
+            "fractionDamage" : 0.12,
+            "speed" : 21.600000000000001,
+            "type" : "Basic",
+            "pierce" : 2,
+            "damage" : 224,
+            "maxTravelDistance" : 6,
+            "size" : 0.0625,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "effects" : [
+              {
+                "type" : "Hack",
+                "fractionDps" : 0.029999999999999999,
+                "duration" : 15
+              }
+            ]
+          },
+          "type" : "ProjectileTurret"
+        },
+        {
+          "projectile" : {
+            "size" : 0.0625,
+            "pierce" : 4,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "damage" : 336,
+            "type" : "Basic",
+            "fractionDamage" : 0.12,
+            "maxTravelDistance" : 6.5,
+            "speed" : 24
+          },
+          "radius" : 6,
+          "description" : "Increased damage, range, and projectile speed",
+          "turnSpeed" : "720°",
+          "fireRate" : 0.25600000000000001,
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "view" : {
+
+          },
+          "cost" : {
+            "gold" : 300,
+            "iron" : 1150
+          },
+          "name" : "Gold standard lvl2",
+          "type" : "ProjectileTurret"
+        },
+        {
+          "description" : "Increased damage, range, and projectile speed",
+          "cost" : {
+            "iron" : 2350
+          },
+          "fireRate" : 0.20480000000000001,
+          "projectile" : {
+            "pierce" : 8,
+            "size" : 0.0625,
+            "damage" : 504,
+            "type" : "Basic",
+            "speed" : 28.800000000000001,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "maxTravelDistance" : 7.5
+          },
+          "name" : "Platinum standard lvl2",
+          "view" : {
+
+          },
+          "turnSpeed" : "720°",
+          "type" : "ProjectileTurret",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "radius" : 7
+        }
+      ],
+      [
+        {
+          "fireRate" : 3,
+          "projectile" : {
+            "damage" : 1000
+          },
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "turnSpeed" : "720°",
+          "name" : "Elite sniper",
+          "type" : "SniperTurret",
+          "view" : {
+
+          },
+          "radius" : 10,
+          "description" : "Increased range and damage",
+          "cost" : {
+            "iron" : 275
+          }
+        },
+        {
+          "radius" : 10,
+          "description" : "Increased fire rate",
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "cost" : {
+            "iron" : 575
+          },
+          "type" : "SniperTurret",
+          "name" : "Advanced sniper",
+          "projectile" : {
+            "damage" : 1000
+          },
+          "turnSpeed" : "720°",
+          "fireRate" : 2.3999999999999999,
+          "view" : {
+
+          }
+        },
+        [
+
+        ],
+        {
+          "turnSpeed" : "720°",
+          "fireRate" : 0.25600000000000001,
+          "radius" : 7,
+          "name" : "Gold standard lvl3",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "type" : "ProjectileTurret",
+          "view" : {
+
+          },
+          "cost" : {
+            "iron" : 2750,
+            "gold" : 300
+          },
+          "description" : "Increased damage, range, projectile speed, and pierce",
+          "projectile" : {
+            "fractionDamage" : 0.12,
+            "pierce" : 5,
+            "damage" : 672,
+            "maxTravelDistance" : 7.5,
+            "size" : 0.0625,
+            "speed" : 28.800000000000001,
+            "type" : "Basic",
+            "view" : {
+              "textureName" : "Bullet"
+            }
+          }
+        },
+        {
+          "name" : "Platinum standard lvl3",
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "view" : {
+
+          },
+          "turnSpeed" : "720°",
+          "radius" : 8,
+          "projectile" : {
+            "maxTravelDistance" : 8.5,
+            "speed" : 34.560000000000002,
+            "damage" : 1008,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "size" : 0.0625,
+            "pierce" : 10,
+            "type" : "Basic"
+          },
+          "description" : "Increased damage, range, projectile speed, and pierce",
+          "fireRate" : 0.20480000000000001,
+          "cost" : {
+            "iron" : 5550
+          },
+          "type" : "ProjectileTurret"
+        }
+      ],
+      [
+        {
+          "view" : {
+
+          },
+          "type" : "SniperTurret",
+          "turnSpeed" : "720°",
+          "description" : "% damage",
+          "name" : "Marine sniper",
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "cost" : {
+            "iron" : 875
+          },
+          "projectile" : {
+            "damage" : 4000
+          },
+          "fireRate" : 4,
+          "radius" : 11
+        },
+        {
+          "radius" : 11,
+          "view" : {
+
+          },
+          "name" : "Commando sniper",
+          "type" : "SniperTurret",
+          "fireRate" : 3.2000000000000002,
+          "turnSpeed" : "720°",
+          "cost" : {
+            "iron" : 1475
+          },
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "projectile" : {
+            "damage" : 4000
+          },
+          "description" : "Increased fire rate"
+        },
+        {
+          "projectile" : {
+            "damage" : 4000
+          },
+          "turnSpeed" : "720°",
+          "type" : "SniperTurret",
+          "cost" : {
+            "iron" : 2375
+          },
+          "view" : {
+
+          },
+          "radius" : 15.4,
+          "description" : "Increased range, slightly increased fire rate",
+          "name" : "Agent sniper",
+          "fireRate" : 2.8799999999999999,
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ]
+        },
+        [
+
+        ],
+        {
+          "view" : {
+
+          },
+          "terrains" : [
+            "Grass",
+            "sand",
+            "snow",
+            "rock"
+          ],
+          "projectile" : {
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "pierce" : 15,
+            "maxTravelDistance" : 9.5,
+            "type" : "Basic",
+            "damage" : 2016,
+            "speed" : 41.472000000000001,
+            "size" : 0.0625
+          },
+          "radius" : 9,
+          "name" : "Platinum standard lvl4",
+          "cost" : {
+            "iron" : 8750
+          },
+          "type" : "ProjectileTurret",
+          "turnSpeed" : "720°",
+          "fireRate" : 0.20480000000000001,
+          "description" : "Increased damage, range, projectile speed, and pierce"
+        }
+      ],
+      [
+        {
+          "name" : "Robot sniper",
+          "cost" : {
+            "iron" : 3275
+          },
+          "description" : "Hack effect deals % damage over time",
+          "projectile" : {
+            "damage" : 4800
+          },
+          "view" : {
+
+          },
+          "fireRate" : 5,
+          "turnSpeed" : "720°",
+          "type" : "SniperTurret",
+          "radius" : 12,
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ]
+        },
+        {
+          "projectile" : {
+            "damage" : 4800
+          },
+          "view" : {
+
+          },
+          "type" : "SniperTurret",
+          "turnSpeed" : "720°",
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "fireRate" : 4,
+          "cost" : {
+            "iron" : 4175
+          },
+          "name" : "Sniper X",
+          "radius" : 12,
+          "description" : "Increased fire rate"
+        },
+        {
+          "projectile" : {
+            "damage" : 4800
+          },
+          "turnSpeed" : "720°",
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "description" : "Increased range, slightly increased fire rate",
+          "name" : "Sniper Z",
+          "fireRate" : 3.6000000000000001,
+          "cost" : {
+            "iron" : 6875
+          },
+          "view" : {
+
+          },
+          "type" : "SniperTurret",
+          "radius" : 16.800000000000001
+        },
+        {
+          "projectile" : {
+            "damage" : 4800
+          },
+          "fireRate" : 3.6000000000000001,
+          "type" : "SniperTurret",
+          "terrains" : [
+            "Rocks",
+            "grass",
+            "sand",
+            "snow"
+          ],
+          "turnSpeed" : "720°",
+          "radius" : 100,
+          "view" : {
+
+          },
+          "description" : "Unlimited range",
+          "name" : ".sniper",
+          "cost" : {
+            "iron" : 12275
+          }
+        }
+      ]
+    ]
+  ],
+  "spikeRoller" : [
+    [
+      [
+        {
+          "description" : "Shoots a spiked ball in a fixed straight line which goes through many enemies",
+          "type" : "SpikeRoller",
+          "projectile" : {
+            "type" : "Basic",
+            "damage" : 90,
+            "pierce" : 5,
+            "maxTravelDistance" : 10,
+            "size" : 1,
+            "view" : {
+              "animationDuration" : 0.125,
+              "textureName" : "SpikedBall"
+            },
+            "speed" : 5
+          },
+          "name" : "Spike roller",
+          "cost" : {
+            "iron" : 100
+          },
+          "view" : {
+
+          },
+          "fireRate" : 2,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ]
+        },
+        {
+          "description" : "Shoots a bigger spiked ball which does more damage",
+          "type" : "SpikeRoller",
+          "projectile" : {
+            "maxTravelDistance" : 12,
+            "view" : {
+              "animationDuration" : 0.125,
+              "textureName" : "SpikedBallBig"
+            },
+            "damage" : 180,
+            "speed" : 4,
+            "size" : 1.25,
+            "pierce" : 7,
+            "type" : "Basic"
+          },
+          "name" : "Big spiked ball",
+          "cost" : {
+            "iron" : 250
+          },
+          "view" : {
+
+          },
+          "fireRate" : 2.5,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ]
+        },
+        {
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "view" : {
+
+          },
+          "cost" : {
+            "iron" : 550
+          },
+          "projectile" : {
+            "pierce" : 10,
+            "effects" : [
+              {
+                "duration" : 0.5,
+                "type" : "Stun"
+              },
+              {
+                "type" : "Knockback",
+                "duration" : 0.5,
+                "distancePerSecond" : 1
+              }
+            ],
+            "damage" : 360,
+            "type" : "Basic",
+            "size" : 1.25,
+            "maxTravelDistance" : 14,
+            "speed" : 3.5,
+            "view" : {
+              "textureName" : "SpikedBallHeavy",
+              "animationDuration" : 0.125
+            }
+          },
+          "type" : "SpikeRoller",
+          "name" : "Heavy spiked ball",
+          "fireRate" : 2.75,
+          "description" : "Spiked ball does more damage, pierce, and slight knockback"
+        },
+        {
+          "description" : "Slightly more pierce, much more knockback",
+          "name" : "Steam roller",
+          "view" : {
+
+          },
+          "projectile" : {
+            "damage" : 540,
+            "speed" : 3,
+            "type" : "Basic",
+            "effects" : [
+              {
+                "duration" : 1.5,
+                "type" : "Stun"
+              },
+              {
+                "type" : "Knockback",
+                "distancePerSecond" : 2,
+                "duration" : 1.5
+              }
+            ],
+            "pierce" : 14,
+            "maxTravelDistance" : 16,
+            "size" : 2,
+            "view" : {
+              "textureName" : "SteamRoller",
+              "animationDuration" : 0.125
+            }
+          },
+          "cost" : {
+            "iron" : 1450
+          },
+          "fireRate" : 3,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "type" : "SpikeRoller"
+        },
+        {
+          "name" : "Glue roller",
+          "cost" : {
+            "iron" : 4150
+          },
+          "view" : {
+
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "projectile" : {
+            "damage" : 810,
+            "pierce" : 19,
+            "size" : 2,
+            "maxTravelDistance" : 18,
+            "view" : {
+              "textureName" : "SteamRollerGlue",
+              "animationDuration" : 0.125
+            },
+            "effects" : [
+              {
+                "type" : "Stun",
+                "duration" : 2
+              },
+              {
+                "type" : "Knockback",
+                "distancePerSecond" : 2.5,
+                "duration" : 2
+              },
+              {
+                "type" : "Glue",
+                "speedMultiplier" : 0.75,
+                "duration" : 4
+              }
+            ],
+            "speed" : 2.5,
+            "type" : "Basic"
+          },
+          "description" : "Glue keeps enemies slower. Also more pierce, damage, and knockback",
+          "fireRate" : 3.5,
+          "type" : "SpikeRoller"
+        }
+      ],
+      [
+        {
+          "fireRate" : 0.5,
+          "view" : {
+
+          },
+          "cost" : {
+            "coal" : 400,
+            "iron" : 100,
+            "copper" : 200
+          },
+          "description" : "Shoots smaller spiked balls but much faster",
+          "projectile" : {
+            "type" : "Basic",
+            "maxTravelDistance" : 12,
+            "pierce" : 3,
+            "view" : {
+              "animationDuration" : 0.125,
+              "textureName" : "SpikedBallSmall"
+            },
+            "speed" : 10,
+            "size" : 0.5,
+            "damage" : 72
+          },
+          "type" : "SpikeRoller",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "name" : "Small spiked ball"
+        }
+      ],
+      [
+        {
+          "fireRate" : 0.0625,
+          "view" : {
+
+          },
+          "cost" : {
+            "iron" : 100,
+            "copper" : 600,
+            "coal" : 1200
+          },
+          "description" : "Shoots many bullets very fast",
+          "projectile" : {
+            "damage" : 108,
+            "view" : {
+              "textureName" : "Bullet"
+            },
+            "type" : "Basic",
+            "speed" : 12,
+            "size" : 0.125,
+            "pierce" : 2,
+            "maxTravelDistance" : 14
+          },
+          "type" : "SpikeRoller",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "name" : "Machine gun"
+        }
+      ],
+      [
+        {
+          "fireRate" : 0.125,
+          "cost" : {
+            "copper" : 1000,
+            "iron" : 100,
+            "coal" : 2800
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "view" : {
+
+          },
+          "type" : "SpikeRoller",
+          "description" : "Shoots rockets instead of bullets",
+          "projectile" : {
+            "explosionView" : "Basic",
+            "type" : "Bomb",
+            "speed" : 14.4,
+            "view" : {
+              "textureName" : "Missile"
+            },
+            "maxTravelDistance" : 18,
+            "size" : 0.25,
+            "damage" : 108,
+            "blastRadius" : 0.5
+          },
+          "name" : "Rocket gun"
+        }
+      ],
+      [
+        {
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "angleBetweenProjectiles" : "30°",
+          "projectile" : {
+            "explosionView" : "Basic",
+            "type" : "Bomb",
+            "maxTravelDistance" : 24,
+            "view" : {
+              "textureName" : "MissileSuper"
+            },
+            "speed" : 14.4,
+            "blastRadius" : 0.75,
+            "size" : 0.25,
+            "damage" : 216
+          },
+          "cost" : {
+            "gold" : 250,
+            "copper" : 1800,
+            "iron" : 100,
+            "coal" : 100
+          },
+          "type" : "SpikeRoller",
+          "name" : "Gold rocket gun",
+          "fireRate" : 0.10000000000000001,
+          "numProjectiles" : 3,
+          "description" : "Shoots better rockets, and 3 at different angles",
+          "view" : {
+
+          }
+        }
+      ],
+      [
+        {
+          "type" : "SpikeRoller",
+          "description" : "Shoots 7 rockets at different angles",
+          "numProjectiles" : 7,
+          "view" : {
+
+          },
+          "angleBetweenProjectiles" : "15°",
+          "projectile" : {
+            "type" : "Bomb",
+            "view" : {
+              "textureName" : "MissileSuper"
+            },
+            "size" : 0.25,
+            "damage" : 216,
+            "blastRadius" : 0.75,
+            "explosionView" : "Basic",
+            "speed" : 14.4,
+            "maxTravelDistance" : 32
+          },
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "name" : "Platinum rocket gun",
+          "cost" : {
+            "coal" : 500,
+            "iron" : 100,
+            "gold" : 750,
+            "copper" : 3400
+          },
+          "fireRate" : 0.080000000000000002
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "name" : "Electric spikes",
+          "description" : "Spiked balls have increased pierce, and slightly better fire rate \/ damage",
+          "fireRate" : 1.6000000000000001,
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "view" : {
+
+          },
+          "projectile" : {
+            "type" : "Basic",
+            "size" : 1,
+            "maxTravelDistance" : 12,
+            "speed" : 7.5,
+            "damage" : 135,
+            "pierce" : 10,
+            "view" : {
+              "animationDuration" : 0.125,
+              "textureName" : "SpikedBallElectric"
+            }
+          },
+          "type" : "SpikeRoller",
+          "cost" : {
+            "iron" : 200,
+            "coal" : 2100
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "projectile" : {
+            "maxTravelDistance" : 16,
+            "view" : {
+              "textureName" : "PlasmaBall"
+            },
+            "pierce" : 20,
+            "type" : "Basic",
+            "damage" : 202.5,
+            "size" : 1,
+            "speed" : 11.25
+          },
+          "type" : "SpikeRoller",
+          "cost" : {
+            "iron" : 600,
+            "coal" : 5300
+          },
+          "name" : "Plasma ball",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "description" : "Shoots balls of plasma instead of spiked balls, with even better pierce",
+          "fireRate" : 1.28,
+          "view" : {
+
+          }
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "projectile" : {
+            "dps" : 400,
+            "type" : "Beam",
+            "width" : 0.25,
+            "view" : {
+              "color" : "0xE02010"
+            }
+          },
+          "name" : "Laser turret",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "description" : "Instead of a spiked ball, shoots a laser beam with infinite pierce",
+          "cost" : {
+            "uranium" : 400,
+            "iron" : 2200
+          },
+          "view" : {
+
+          },
+          "type" : "MountedLaser"
+        }
+      ]
+    ],
+    [
+      [
+        {
+          "projectile" : {
+            "dps" : 720,
+            "type" : "Flashlight",
+            "view" : {
+              "color" : "0xFFF040"
+            },
+            "initialWidth" : 0.5,
+            "widthPerTile" : 0.25
+          },
+          "name" : "Giant flashlight",
+          "terrains" : [
+            "Grass",
+            "Sand",
+            "Rocks",
+            "Snow"
+          ],
+          "description" : "Giant flashlight apparently deals more damage, also the beam gets wider the further away",
+          "cost" : {
+            "uranium" : 2000,
+            "iron" : 5400
+          },
+          "view" : {
+
+          },
+          "type" : "MountedLaser"
+        }
+      ]
+    ]
+  ]
+}

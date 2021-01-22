@@ -1,0 +1,26 @@
+TurretBasic; name; description; view; cost.iron; cost.gold; type; terrains; radius; fireRate; turnSpeed; projectile.view.textureName; projectile.type; projectile.damage; projectile.fractionDamage; projectile.pierce; projectile.maxTravelDistance; projectile.speed; projectile.size; projectile.effects.0.dps; projectile.effects.0.duration; projectile.effects.0.fractionDps; projectile.effects.0.type
+0-0-0; Standard; All-around turret with medium damage, fire rate, and range. No pierce and projectiles travel fast; {}; 50; 100; ProjectileTurret; Grass, sand, snow, rock; 4; 0.5; 720°; Bullet; Basic; 50; 0.15; 1; 4.5; 18; 0.0625; 4032; 0.25; 0.025000000000000001; ChemBurn
+1-0-0; Bronze standard; Increased fire rate, range, and damage; {}; 150; 100; ProjectileTurret; Grass, sand, snow, rock; 4.25; 0.4; 720°; Bullet; Basic; 75; 0.15; 1; 4.75; 18; 0.0625; ; 15; 0.025000000000000001; Hack
+2-0-0; Silver standard; Increased damage, fire rate, range, and pierce; {}; 350; 100; ProjectileTurret; Grass, sand, snow, rock; 4.5; 0.32; 720°; Bullet; Basic; 112; 0.15; 2; 5; 18; 0.0625; ; 15; 0.025000000000000001; Hack
+3-0-0; Gold standard; Increased range, pierce, damage, and fire rate; {}; 750; 300; ProjectileTurret; Grass, sand, snow, rock; 5; 0.256; 720°; BulletGold; Basic; 168; 0.12; 4; 5.5; 20; 0.0625; ; 18; ; Hack
+4-0-0; Platinum standard; Increased pierce, damage, fire rate, and range; {}; 1550; 300; ProjectileTurret; Grass, sand, snow, rock; 6; 0.2048; 720°; BulletPlatinum; Basic; 252; ; 8; 6.5; 24; 0.0625; ; ; ; 
+5-0-0; The best one; This tower is better than you are; {}; 101550; ; ProjectileTurret; Grass, sand, snow, rock; 100; 0.01; 720°; Best; Basic; 1000; ; 1e+100; 100; 24; 0.25; ; ; ; 
+0-1-0; Sniper; Big range increase, and fires instant projectiles which are guaranteed to hit the intended target. However, fires much slower; {}; 125; ; SniperTurret; Rocks, grass, sand, snow; 9; 3; 720°; ; ; 500; ; ; ; ; ; ; ; ; 
+1-1-0; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+2-1-0; Silver standard lvl2; Increased damage, range, and projectile speed; {}; 550; 300; ProjectileTurret; Grass, sand, snow, rock; 5.5; 0.32; 720°; Bullet; Basic; 224; 0.12; 2; 6; 21.6; 0.0625; ; 15; 0.029999999999999999; Hack
+3-1-0; Gold standard lvl2; Increased damage, range, and projectile speed; {}; 1150; 300; ProjectileTurret; Grass, sand, snow, rock; 6; 0.256; 720°; Bullet; Basic; 336; 0.12; 4; 6.5; 24; 0.0625; ; ; ; 
+4-1-0; Platinum standard lvl2; Increased damage, range, and projectile speed; {}; 2350; ; ProjectileTurret; Grass, sand, snow, rock; 7; 0.2048; 720°; Bullet; Basic; 504; ; 8; 7.5; 28.8; 0.0625; ; ; ; 
+0-2-0; Elite sniper; Increased range and damage; {}; 275; ; SniperTurret; Rocks, grass, sand, snow; 10; 3; 720°; ; ; 1000; ; ; ; ; ; ; ; ; 
+1-2-0; Advanced sniper; Increased fire rate; {}; 575; ; SniperTurret; Rocks, grass, sand, snow; 10; 2.4; 720°; ; ; 1000; ; ; ; ; ; ; ; ; 
+2-2-0; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+3-2-0; Gold standard lvl3; Increased damage, range, projectile speed, and pierce; {}; 2750; 300; ProjectileTurret; Grass, sand, snow, rock; 7; 0.256; 720°; Bullet; Basic; 672; 0.12; 5; 7.5; 28.8; 0.0625; ; ; ; 
+4-2-0; Platinum standard lvl3; Increased damage, range, projectile speed, and pierce; {}; 5550; ; ProjectileTurret; Grass, sand, snow, rock; 8; 0.2048; 720°; Bullet; Basic; 1008; ; 10; 8.5; 34.56; 0.0625; ; ; ; 
+0-3-0; Marine sniper; % damage; {}; 875; ; SniperTurret; Rocks, grass, sand, snow; 11; 4; 720°; ; ; 4000; ; ; ; ; ; ; ; ; 
+1-3-0; Commando sniper; Increased fire rate; {}; 1475; ; SniperTurret; Rocks, grass, sand, snow; 11; 3.2; 720°; ; ; 4000; ; ; ; ; ; ; ; ; 
+2-3-0; Agent sniper; Increased range, slightly increased fire rate; {}; 2375; ; SniperTurret; Rocks, grass, sand, snow; 15.4; 2.88; 720°; ; ; 4000; ; ; ; ; ; ; ; ; 
+3-3-0; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; ; 
+4-3-0; Platinum standard lvl4; Increased damage, range, projectile speed, and pierce; {}; 8750; ; ProjectileTurret; Grass, sand, snow, rock; 9; 0.2048; 720°; Bullet; Basic; 2016; ; 15; 9.5; 41.472; 0.0625; ; ; ; 
+0-4-0; Robot sniper; Hack effect deals % damage over time; {}; 3275; ; SniperTurret; Rocks, grass, sand, snow; 12; 5; 720°; ; ; 4800; ; ; ; ; ; ; ; ; 
+1-4-0; Sniper X; Increased fire rate; {}; 4175; ; SniperTurret; Rocks, grass, sand, snow; 12; 4; 720°; ; ; 4800; ; ; ; ; ; ; ; ; 
+2-4-0; Sniper Z; Increased range, slightly increased fire rate; {}; 6875; ; SniperTurret; Rocks, grass, sand, snow; 16.8; 3.6; 720°; ; ; 4800; ; ; ; ; ; ; ; ; 
+3-4-0; .sniper; Unlimited range; {}; 12275; ; SniperTurret; Rocks, grass, sand, snow; 100; 3.6; 720°; ; ; 4800; ; ; ; ; ; ; ; ; 

@@ -1,0 +1,18 @@
+StatusEffects; name; view.animationDuration; view.scale; kind; isSpreadable
+resistantFreeze; Resistant Freeze; ; ; Freeze; 
+disease; Disease; ; ; ; TRUE
+hack; Hack; ; ; ; 
+frostbite; Freeze; ; ; Freeze; 
+poison; Poison; ; ; ; 
+stun; Stun; ; ; ; 
+knockback; Knockback; ; ; ; 
+frozenVulnerable; Frozen-vulnerable; ; ; Freeze; 
+slow; Slow; ; ; ; 
+burn; Burn; 1; 1; Burn; 
+vulnerable; Vulnerable; ; ; ; 
+chemBurn; Chemical-burn; 1; 1; ; 
+blackHoleStun; Black-hole; ; ; ; 
+freeze; Freeze; 1; 0.5; Freeze; 
+glue; Glue; 1; 0.5; ; TRUE
+doom; Doom; ; ; ; 
+resistantSlow; Resistant Slow; ; ; ; 

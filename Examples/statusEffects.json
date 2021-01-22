@@ -1,0 +1,76 @@
+{
+  "burn": {
+    "name": "Burn",
+    "view": {
+      "animationDuration": 1,
+      "scale": 1
+    },
+    "kind": "Burn"
+  },
+  "frostbite": {
+    "name": "Freeze",
+    "kind": "Freeze"
+  },
+  "chemBurn": {
+    "name": "Chemical-burn",
+    "view": {
+      "animationDuration": 1,
+      "scale": 1
+    }
+  },
+  "disease": {
+    "name": "Disease",
+    "isSpreadable": true
+  },
+  "poison": {
+    "name": "Poison"
+  },
+  "hack": {
+    "name": "Hack"
+  },
+  "doom": {
+    "name": "Doom"
+  },
+  "vulnerable": {
+    "name": "Vulnerable"
+  },
+  "frozenVulnerable": {
+    "name": "Frozen-vulnerable",
+    "kind": "Freeze"
+  },
+  "freeze": {
+    "name": "Freeze",
+    "view": {
+      "animationDuration": 1,
+      "scale": 0.5
+    },
+    "kind": "Freeze"
+  },
+  "resistantFreeze": {
+    "name": "Resistant Freeze",
+    "kind": "Freeze"
+  },
+  "slow": {
+    "name": "Slow"
+  },
+  "resistantSlow": {
+    "name": "Resistant Slow"
+  },
+  "glue": {
+    "name": "Glue",
+    "view": {
+      "animationDuration": 1,
+      "scale": 0.5
+    },
+    "isSpreadable": true
+  },
+  "stun": {
+    "name": "Stun"
+  },
+  "blackHoleStun": {
+    "name": "Black-hole"
+  },
+  "knockback": {
+    "name": "Knockback"
+  }
+}

@@ -1,0 +1,11 @@
+Mine; name; description; view; cost.iron; cost.gold; cost.coal; cost.aluminum; cost.uranium; type; radius; degradeMultiplier; ironOresPerYield; isDegradeLocal; oresPerYield; ticksPerYield
+0-0-0; Mine; Mines nearby ores, increasing your resources; {}; 250; 100; 250; 500; 1000; BasicMine; 2; 0.75; 1; TRUE; 10; 800
+1-0-0; Laser mine; Only mines its own tile, but faster and more consistently; {}; 250; 150; 250; 500; 2500; BasicMine; 1; 0.75; 5; FALSE; 1; 16
+2-0-0; Deep laser mine; Mines faster, and additionally mines iron; {}; 2750; 400; ; 8000; 2500; IronMine; 1; ; ; ; 4; 16
+3-0-0; Core laser mine; Mines insane amounts of iron. Breaks <TODO> towers; {}; ; 1150; ; ; ; IronMine; 1; ; ; ; 2; 1
+0-1-0; Bomb mine; Mines larger yields but slower; {}; ; 200; ; ; ; BasicMine; 2; ; ; ; 50; 1600
+0-2-0; Bigger bomb mine; Mines larger yields and radius but slower; {}; ; 400; ; ; ; BasicMine; 3; ; ; ; 200; 3200
+0-3-0; Atomic bomb mine; Massive yields; {}; ; 1250; ; ; ; BasicMine; 3; ; ; ; 2000; 6400
+0-0-1; Larger radius; Mines a bigger radius, but less ore; {}; ; 200; ; ; ; BasicMine; 3; ; ; ; 7; 1200
+0-0-2; Fracking mine; Mines an even larger radius, but degrades buildings in the mining zone; {}; ; 350; ; ; ; FrackingMine; 5; ; ; ; 21; 1800
+0-0-3; Super fracking mine; Mines a huge radius, but degrades every tower; {}; ; 800; ; ; ; FrackingMine; 10; ; ; ; 189; 2700
